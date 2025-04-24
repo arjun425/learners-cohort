@@ -42,8 +42,6 @@ public class HashMapDemo {
         Employee employee1 = new Employee(1, "Pradeep", "Kotari",
                 BigDecimal.valueOf(100000), 42);
 
-        // mutable way of changing...
-        employee1.setSalary(BigDecimal.valueOf(200000));
 
         Employee employee2 = new Employee(2, "Pranaya", "Sri",
                 BigDecimal.valueOf(200000), 22);
@@ -67,11 +65,6 @@ public class HashMapDemo {
         employeeMap.put(4, employee4);
         System.out.println("Employee Map:");
         System.out.println(employeeMap);
-
-        String str = "test";
-        str.
-
-        System.out.println(employee1.firstName());
 
         System.out.println(employeeMap.keySet());
         System.out.println(employeeMap.values());
