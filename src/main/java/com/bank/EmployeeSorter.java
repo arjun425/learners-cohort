@@ -1,4 +1,4 @@
-package com.learning;
+package com.bank;
 
 import java.math.BigDecimal;
 import java.util.*;
@@ -7,6 +7,12 @@ import java.util.stream.Collectors;
 public class EmployeeSorter {
 
     public static void main(String[] args) {
+
+        EmployeeSorter employeeSorter = new EmployeeSorter();
+        employeeSorter.doSomething();
+        Employee employee1 = new Employee(1, "John", "Doe", BigDecimal.valueOf(50000), 30);
+        Employee employee2 = new Employee(2, "Jane", "Doe", BigDecimal.valueOf(50000), 29);
+        System.out.println("Company Name:"+ Employee.COMPANY_NAME);
 
         List<Employee> employees = getEmployees();
         employees.sort(Comparator.comparing(e -> e.getId()));
@@ -24,6 +30,10 @@ public class EmployeeSorter {
         System.out.println("Employees data:" );
         empIdMap.entrySet().stream().forEach(x-> System.out.println(x));
 
+    }
+
+    private void doSomething(){
+        System.out.println("Doing something");
     }
 
 

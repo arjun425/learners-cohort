@@ -1,4 +1,4 @@
-package com.learning;
+package com.oops;
 
 public class ImplDemo implements InterfaceA, InterfaceB{
     @Override

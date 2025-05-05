@@ -1,4 +1,4 @@
-package com.learning;
+package com.bank;
 
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -11,6 +11,8 @@ public final class Employee {
 
     private final BigDecimal salary;
     private final Integer age;
+
+    public static final String COMPANY_NAME = "Hexaware";
 
     public Employee(Integer id, String firstName, String lastName, BigDecimal salary, Integer age) {
         this.id = id;

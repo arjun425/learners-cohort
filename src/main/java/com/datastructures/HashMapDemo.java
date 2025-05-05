@@ -1,8 +1,8 @@
 package com.datastructures;
 
-import com.learning.Customer;
-import com.learning.Department;
-import com.learning.Employee;
+import com.bank.Customer;
+import com.bank.Department;
+import com.bank.Employee;
 
 import java.math.BigDecimal;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.learning;
+package com.coding;
 
 public class TripletGenerator {
 

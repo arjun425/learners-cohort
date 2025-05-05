@@ -1,4 +1,4 @@
-package com.learning;
+package com.bank;
 
 public class Department {
     private int departmentId;
